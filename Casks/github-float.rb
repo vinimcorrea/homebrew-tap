@@ -17,10 +17,8 @@ cask "github-float" do
   app "GitHubFloat.app"
 
   # The app is ad-hoc signed (not notarized): drop the quarantine flag so it opens without a Gatekeeper prompt.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/GitHubFloat.app"],
-                   must_succeed: false
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/GitHubFloat.app"], must_succeed: false
   end
 
   uninstall quit: "com.vinimcorrea.githubfloat"
