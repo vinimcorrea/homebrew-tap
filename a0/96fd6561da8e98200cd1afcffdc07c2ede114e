@@ -1,0 +1,14 @@
+Casks/github-float.rb
+  h_4635714518fa69 20-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a096fd6561da8e98200cd1afcffdc07c2ede114e",
+  "prompts": {},
+  "humans": {
+    "h_4635714518fa69": {
+      "author": "Vinicius Correa <73285619+vinimcorrea@users.noreply.github.com>"
+    }
+  }
+}
