@@ -1,6 +1,6 @@
 cask "github-float" do
-  version "1.5.0"
-  sha256 "f6c9eba36474cedf2faff15d057a7e0429937a535050bcdda02d73cdb260fb0f"
+  version "1.6.0"
+  sha256 "bb27df4d739e4347d66fee5f82ad98dacff7f3322f848061b20a7bf6426284a8"
 
   url "https://github.com/vinimcorrea/github-float/releases/download/v#{version}/GitHubFloat.zip"
   name "GitHub Float"
